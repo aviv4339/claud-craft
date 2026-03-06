@@ -1,12 +1,14 @@
 # Claud-Craft
 
-Ready-to-paste Python scripts for **Minecraft Education Edition** — built with [Claude Code](https://claude.ai/claude-code).
+Ready-to-paste Python scripts for **Minecraft Education Edition** — built with Claude Code.
 
 Drop these into MakeCode's Python editor and type `1` in the game chat to watch them build.
 
 ![MakeCode Python](https://img.shields.io/badge/MakeCode-Python-blue)
 ![Minecraft Education](https://img.shields.io/badge/Minecraft-Education%20Edition-green)
 ![Built with Claude](https://img.shields.io/badge/Built%20with-Claude%20Code-blueviolet)
+
+<img src="images/showcase.png" alt="Luigi's Mansion and Claude Code Loves Minecraft pixel sign built in Minecraft Education Edition" width="100%">
 
 ## The Builds
 
@@ -47,7 +49,7 @@ agent.turn(TurnDirection.LEFT)
 
 **World API** — Place blocks directly with coordinates relative to the player:
 ```python
-blocks.place(GLOWSTONE, pos(5, 0, 3))
+blocks.place(Block.GLOWSTONE, pos(5, 0, 3))
 blocks.fill(Block.STONE, pos(0, 0, 0), pos(10, 5, 10))
 ```
 
